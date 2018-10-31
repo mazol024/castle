@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+li {
+  display: inline;
+}
+ul {
+  margin: 2px auto;
+  width: available;
+}
+.rowImg {
+  display: inline;
+}
+.singleImg {
+  border: black solid 2px;
+  border-radius: 5px 5px;
+  margin: 3px;
+  box-shadow: #555 1px 1px 8px 1px ;
+}

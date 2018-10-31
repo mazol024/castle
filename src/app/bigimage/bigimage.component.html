@@ -1,0 +1,9 @@
+<p>
+  bigimage works!
+</p>
+
+<ul class="rowImg" *ngFor="let i of imgWeb" >
+  <li routerLinkActive="menuActive" routerLink="/detail1">
+  <img class="singleImg" [src]=i height="240px" width="380px" >
+  </li>
+</ul>
