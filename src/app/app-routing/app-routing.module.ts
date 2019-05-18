@@ -7,9 +7,10 @@ import {DetailComponent} from '../detail/detail.component';
 import {AboutComponent} from '../about/about.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/smallimage', pathMatch: 'full'},
+  {path: '', redirectTo: '/smallimage/castle', pathMatch: 'full'},
   {path: 'about', component: AboutComponent},
-  {path: 'smallimage', component: SmallimageComponent},
+  {path: 'smallimage/castle', component: SmallimageComponent},
+  {path: 'smallimage/paris', component: SmallimageComponent},
   {path: 'detail/:i', component: DetailComponent}
 ];
 @NgModule({

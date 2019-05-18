@@ -1,22 +1,40 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ImageServiceService {
 
-  myImages: String[] = ['../assets/img1.jpg', '../assets/img2.jpg', '../assets/img3.jpg', '../assets/img4.jpg',
-    '../assets/img5.jpg', '../assets/img6.jpg', '../assets/img7.jpg', '../assets/img8.jpg', '../assets/img9.jpg'
-    , '../assets/img10.jpg', '../assets/img11.jpg', '../assets/img12.jpg', '../assets/img13.jpg', '../assets/img14.jpg'
-    , '../assets/img15.jpg', '../assets/img16.jpg', '../assets/img17.jpg', '../assets/img18.jpg', '../assets/img19.jpg'
-    , '../assets/img20.jpg', '../assets/img21.jpg', '../assets/img22.jpg', '../assets/img23.jpg', '../assets/img24.jpg'
-    , '../assets/img25.jpg', '../assets/img26.jpg', '../assets/img27.jpg', '../assets/img28.jpg', '../assets/img29.jpg'
-    , '../assets/img30.jpg', '../assets/img31.jpg', '../assets/img32.jpg', '../assets/img33.jpg', '../assets/img34.jpg'];
-  constructor() { }
-  getImages() {
-    return this.myImages.slice(0);
+  myImages2 = {
+    'castle': ['../assets/castle/img1.jpg', '../assets/castle/img2.jpg', '../assets/castle/img3.jpg', '../assets/castle/img4.jpg',
+      '../assets/castle/img5.jpg', '../assets/castle/img6.jpg', '../assets/castle/img7.jpg', '../assets/castle/img8.jpg', '../assets/castle/img9.jpg',
+      '../assets/castle/img10.jpg', '../assets/castle/img11.jpg', '../assets/castle/img12.jpg', '../assets/castle/img13.jpg', '../assets/castle/img14.jpg'
+      , '../assets/castle/img15.jpg', '../assets/castle/img16.jpg', '../assets/castle/img17.jpg', '../assets/castle/img18.jpg', '../assets/castle/img19.jpg'
+      , '../assets/castle/img20.jpg', '../assets/castle/img21.jpg', '../assets/castle/img22.jpg', '../assets/castle/img23.jpg', '../assets/castle/img24.jpg'
+      , '../assets/castle/img25.jpg', '../assets/castle/img26.jpg', '../assets/castle/img27.jpg', '../assets/castle/img28.jpg', '../assets/castle/img29.jpg'
+      , '../assets/castle/img30.jpg', '../assets/castle/img31.jpg', '../assets/castle/img32.jpg', '../assets/castle/img33.jpg', '../assets/castle/img34.jpg'],
+      'paris': ['../assets/paris/1.jpg', '../assets/paris/2.jpg', '../assets/paris/3.jpg', '../assets/paris/4.jpg', '../assets/paris/5.jpg',
+      '../assets/paris/6.jpg', '../assets/paris/7.jpg', '../assets/paris/8.jpg', '../assets/paris/9.jpg', '../assets/paris/10.jpg', '../assets/paris/11.jpg',
+        '../assets/paris/12.jpg']
+  };
+
+  myImages: String[] = ['../assets/castle/img1.jpg', '../assets/castle/img2.jpg', '../assets/castle/img3.jpg', '../assets/castle/img4.jpg',
+    '../assets/castle/img5.jpg', '../assets/castle/img6.jpg', '../assets/castle/img7.jpg', '../assets/castle/img8.jpg', '../assets/castle/img9.jpg'
+    , '../assets/castle/img10.jpg', '../assets/castle/img11.jpg', '../assets/castle/img12.jpg', '../assets/castle/img13.jpg', '../assets/castle/img14.jpg'
+    , '../assets/castle/img15.jpg', '../assets/castle/img16.jpg', '../assets/castle/img17.jpg', '../assets/castle/img18.jpg', '../assets/castle/img19.jpg'
+    , '../assets/castle/img20.jpg', '../assets/castle/img21.jpg', '../assets/castle/img22.jpg', '../assets/castle/img23.jpg', '../assets/castle/img24.jpg'
+    , '../assets/castle/img25.jpg', '../assets/castle/img26.jpg', '../assets/castle/img27.jpg', '../assets/castle/img28.jpg', '../assets/castle/img29.jpg'
+    , '../assets/castle/img30.jpg', '../assets/castle/img31.jpg', '../assets/castle/img32.jpg', '../assets/castle/img33.jpg', '../assets/castle/img34.jpg'];
+
+  constructor() {
   }
-  getImage(id: number) {
+
+  getImages(id: string) {
+    // return this.myImages.slice(0);
+    return this.myImages2[id];
+  }
+
+  /*getImage(id: number) {
     return this.getImages()[id];
-  }
+  }*/
 }
