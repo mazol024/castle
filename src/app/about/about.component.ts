@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  title = 'Angular Photo Gallery works';
+  title = 'This application uses Angular technology';
   constructor() { }
 
   ngOnInit() {

@@ -8,10 +8,14 @@ ul {
 }
 .rowImg {
   display: inline;
+  padding-inline-start: 2px;
 }
 .singleImg {
   border: black solid 2px;
   border-radius: 5px 5px;
-  margin: 3px;
+  margin: 5px;
   box-shadow: #555 1px 1px 8px 1px ;
+}
+.tumb {
+  width: 25%;
 }

@@ -8,15 +8,12 @@ import {ActivatedRoute} from '@angular/router';
   styleUrls: ['./smallimage.component.css']
 })
 export class SmallimageComponent implements OnInit, OnChanges {
-  imageKey: string;
   imgWeb: String[] = [];
   constructor(private imgService: ImageServiceService, private route: ActivatedRoute) {
-    this.imageKey = this.route.snapshot.url[1].path;
-    this.imgWeb = this.imgService.getImages(this.imageKey);
+    this.imgWeb = this.imgService.getImages(this.route.snapshot.url[1].path);
   }
   ngOnInit() {
-    this.imageKey = this.route.snapshot.url[1].path;
-    this.imgWeb = this.imgService.getImages(this.imageKey);
+    this.imgWeb = this.imgService.getImages(this.route.snapshot.url[1].path);
   }
   ngOnChanges() {
   }

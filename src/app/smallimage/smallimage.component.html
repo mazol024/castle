@@ -1,12 +1,12 @@
 <hr>
 <ul class="rowImg" *ngFor="let i of imgWeb" >
   <li routerLinkActive="menuActive" [routerLink]="['/detail',i]">
-    <img class="singleImg" [src]=i width="240px" >
+    <img class="tumb singleImg" [src]=i  >
 <!--    <img class="singleImg" [src]=i height="240px" width="380px" >-->
   </li>
 </ul>
 <hr>
-<p>
+<p  id="fotoId">
   All photos made 21.10.2018
 </p>
 

@@ -5,7 +5,7 @@ import {Injectable} from '@angular/core';
 })
 export class ImageServiceService {
 
-  private themes = {'castle': '34', 'paris': '81', 'spain': '163'};
+  private themes = {'castle': '34', 'paris': '22', 'spain': '24'};
 
   constructor() {
   }

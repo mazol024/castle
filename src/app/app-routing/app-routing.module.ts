@@ -11,6 +11,7 @@ const routes: Routes = [
   {path: 'about', component: AboutComponent},
   {path: 'smallimage/castle', component: SmallimageComponent},
   {path: 'smallimage/paris', component: SmallimageComponent},
+  {path: 'smallimage/spain', component: SmallimageComponent},
   {path: 'detail/:i', component: DetailComponent}
 ];
 @NgModule({
