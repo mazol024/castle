@@ -7,9 +7,9 @@ import {DetailComponent} from '../detail/detail.component';
 import {AboutComponent} from '../about/about.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/smallimage/castle', pathMatch: 'full'},
+  {path: '', redirectTo: '/smallimage/larnach', pathMatch: 'full'},
   {path: 'about', component: AboutComponent},
-  {path: 'smallimage/castle', component: SmallimageComponent},
+  {path: 'smallimage/larnach', component: SmallimageComponent},
   {path: 'smallimage/paris', component: SmallimageComponent},
   {path: 'smallimage/spain', component: SmallimageComponent},
   {path: 'detail/:i', component: DetailComponent}
