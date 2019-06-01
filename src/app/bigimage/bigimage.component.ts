@@ -11,7 +11,8 @@ export class BigimageComponent implements OnInit {
 
   imgWeb: String[] = [];
   constructor(private imgService: ImageServiceService, private route: ActivatedRoute) {
-    this.imgWeb = imgService.getImages(this.route.snapshot.params['id']);
+    imgService.getImages1(this.route.snapshot.params['id']);
+    this.imgWeb = ImageServiceService.output1.files;
   }
 
   ngOnInit() {

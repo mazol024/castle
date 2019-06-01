@@ -4,19 +4,22 @@ import {Injectable} from '@angular/core';
   providedIn: 'root'
 })
 export class ImageServiceService {
-
-  private themes = {'larnach': '34', 'paris': '22', 'spain': '24'};
-
+  public static output1: any = [];
+  output2: any;
   constructor() {
-  }
 
-  getImages(id: string) {
-    const a1: String[] = [];
-    /* return this.myImages.slice(0);*/
-    for (let i = 1; i <= this.themes[id]; i++) {
-      a1.push('../assets/' + id + '/' + i.toString() + '.jpg');
-    }
-    return a1;
+  }
+  getImages1(id: string) {
+    const xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = async function() {
+      if (this.readyState === 4 && this.status === 200) {
+        const myObj = JSON.parse(this.responseText);
+        ImageServiceService.output1 = myObj;
+      }
+    };
+    xmlhttp.open('GET', '/assets/' + id + '/memos.txt', false);
+    xmlhttp.send();
+    this.output2 = ImageServiceService.output1;
   }
 
 }

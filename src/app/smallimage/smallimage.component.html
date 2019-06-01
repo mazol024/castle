@@ -1,12 +1,20 @@
 <hr>
-<ul class="rowImg" *ngFor="let i of imgWeb" >
-  <li routerLinkActive="menuActive" [routerLink]="['/detail',i]">
-    <img class="tumb singleImg" [src]=i  >
+<ul class="rowImg" *ngFor="let i of imagesAll" >
+
+  <li  routerLinkActive="menuActive" [routerLink]="['/detail',i['name']]">
+  <div class="tumb">
+    <img  class="multyImg" [src]='i["name"]' [alt]='i["memo"]' [title]='i["memo"]'  >
 <!--    <img class="singleImg" [src]=i height="240px" width="380px" >-->
+
+    <p class="memo1">
+      {{i['memo']}}
+    </p>
+  </div>
   </li>
+
 </ul>
 <hr>
-<p  id="fotoId">
+<p  class="footermain">
   © Oleg Mazhanov 2019.
 </p>
 

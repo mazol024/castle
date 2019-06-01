@@ -1,0 +1,27 @@
+{
+  "files":
+  [
+  {"route":"paris","name":"/assets/paris/1.jpg","memo":"River Sena with Ship"},
+  {"route":"paris","name":"/assets/paris/2.jpg","memo":"Beautiful Brige upon the Sena River. March. Windy and Rainy day! "},
+  {"route":"paris","name":"/assets/paris/3.jpg","memo":"Набережная Сены"},
+  {"route":"paris","name":"/assets/paris/4.jpg","memo":"River Sena "},
+  {"route":"paris","name":"/assets/paris/5.jpg","memo":"Прогулочный катер"},
+  {"route":"paris","name":"/assets/paris/6.jpg","memo":"River Sena         "},
+  {"route":"paris","name":"/assets/paris/7.jpg","memo":"River Sena "},
+  {"route":"paris","name":"/assets/paris/8.jpg","memo":"Прогулочный катерr"},
+  {"route":"paris","name":"/assets/paris/9.jpg","memo":""},
+  {"route":"paris","name":"/assets/paris/10.jpg","memo":"River Sena with Ship"},
+  {"route":"paris","name":"/assets/paris/11.jpg","memo":"Beautiful Tower"},
+  {"route":"paris","name":"/assets/paris/12.jpg","memo":""},
+  {"route":"paris","name":"/assets/paris/13.jpg","memo":""},
+  {"route":"paris","name":"/assets/paris/14.jpg","memo":" "},
+  {"route":"paris","name":"/assets/paris/15.jpg","memo":" "},
+  {"route":"paris","name":"/assets/paris/16.jpg","memo":" "},
+  {"route":"paris","name":"/assets/paris/17.jpg","memo":" "},
+  {"route":"paris","name":"/assets/paris/18.jpg","memo":" "},
+  {"route":"paris","name":"/assets/paris/19.jpg","memo":" "},
+  {"route":"paris","name":"/assets/paris/20.jpg","memo":" "},
+  {"route":"paris","name":"/assets/paris/21.jpg","memo":" "},
+  {"route":"paris","name":"/assets/paris/22.jpg","memo":" "}
+  ]
+}

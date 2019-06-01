@@ -5,6 +5,6 @@
 <ul class="rowImg" *ngFor="let i of imgWeb" >
   <li routerLinkActive="menuActive" routerLink="/detail1">
 <!--  <img class="singleImg" [src]=i height="240px" width="380px" >-->
-    <img class="img-responsive singleImg" [src]=i  >
+    <img class="img-responsive singleImg" [src]=i["name"]  >
   </li>
 </ul>
