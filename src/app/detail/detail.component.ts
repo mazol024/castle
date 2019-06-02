@@ -16,7 +16,7 @@ export class DetailComponent implements OnInit {
 
   ngOnInit() {
     this.img = this.route.snapshot.params['i'];
-    this.alt = this.img.toString().substr(10, this.img.toString().lastIndexOf('/') - 10).toUpperCase();
+    this.alt = this.img.toString().substr(8, this.img.toString().lastIndexOf('/') - 8).toUpperCase();
   }
 
 }
