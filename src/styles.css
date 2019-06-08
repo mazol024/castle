@@ -32,15 +32,16 @@ ul {
   margin: 2px;
   display: block;
   float: left;
-  width: 45%;
+  width: 47%;
 }
 .memo1 {
-  display: block;
-  width: 25%;
+  display: contents;
   float: left;
-  margin: 2px auto;
-  overflow: no-content ;
-  height: content-box;
+  width: 100%;
+  margin: 2px;
+  overflow: auto;
+  height: available;
+  alignment: left;
 }
 .footermain {
   clear: both;
