@@ -12,6 +12,7 @@ const routes: Routes = [
   {path: 'smallimage/larnach', component: SmallimageComponent},
   {path: 'smallimage/paris', component: SmallimageComponent},
   {path: 'smallimage/spain', component: SmallimageComponent},
+  {path: 'smallimage/dianatribute', component: SmallimageComponent},
   {path: 'detail/:i', component: DetailComponent}
 ];
 @NgModule({

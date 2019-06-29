@@ -1,0 +1,14 @@
+{
+  "files":
+  [
+  {"route":"dianatribute","name":"/assets/dianatribute/001.jpg","memo":"I was coincidentally there in London in those sadness days of 1997."},
+  {"route":"dianatribute","name":"/assets/dianatribute/002.jpg","memo":"The Diana's family members."},
+  {"route":"dianatribute","name":"/assets/dianatribute/003.jpg","memo":"There were huge crowds everywhere."},
+  {"route":"dianatribute","name":"/assets/dianatribute/004.jpg","memo":"As many other people I made some pictures there."},
+  {"route":"dianatribute","name":"/assets/dianatribute/006.jpg","memo":""},
+  {"route":"dianatribute","name":"/assets/dianatribute/007.jpg","memo":""},
+  {"route":"dianatribute","name":"/assets/dianatribute/008.jpg","memo":"The ocean of flowers everywhere."},
+  {"route":"dianatribute","name":"/assets/dianatribute/009.jpg","memo":"Flowers, candles and toys."},
+  {"route":"dianatribute","name":"/assets/dianatribute/010.jpg","memo":""}
+  ]
+}
